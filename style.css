@@ -1,10 +1,51 @@
+body{
+  padding-top: 70px;
+  font-family:'Poppins', sans-serif; 
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+p {
+  font-weight: 300;
+}
+
+
+.navbar {
+  background-color: #c9222d !important;
+}
+
+
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #ffd4d4 !important;
+  text-decoration: underline;
+}
+
+
 .hero {
   height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-image: url(assets/IMGs/hero-bg-2.png);
-  display: flex;
-  align-items: center;
+}
 
+.btn-orcamento {
+  background-color:#c9222d !important ; 
+  border: none;
+  transition: 0.2s ease-in-out;
+  color: #ffffff;
+}
+
+
+.btn-orcamento:hover {
+  background-color:#b61f1f !important ;
+  transform: scale(1.05);
+  
 }
