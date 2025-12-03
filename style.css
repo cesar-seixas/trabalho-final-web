@@ -3,14 +3,6 @@ body{
   font-family:'Poppins', sans-serif; 
 }
 
-h1, h2, h3 {
-  font-weight: 600;
-}
-
-p {
-  font-weight: 300;
-}
-
 
 .navbar {
   background-color: #c9222d !important;
@@ -48,4 +40,30 @@ p {
   background-color:#b61f1f !important ;
   transform: scale(1.05);
   
+}
+
+#sobre h2 {
+  color: #c9222d;
+}
+
+#sobre p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+#servicos h2 {
+  color: #c9222d;
+}
+
+.service-card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.service-card {
+  transition: 0.2s ease-in-out;
+}
+
+.service-card:hover {
+  transform: scale(1.03);
 }
