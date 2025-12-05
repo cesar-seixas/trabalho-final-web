@@ -1,4 +1,8 @@
-body{
+html {
+  scroll-behavior: smooth;
+}
+
+body {
   padding-top: 70px;
   font-family:'Poppins', sans-serif; 
 }
@@ -8,6 +12,12 @@ body{
   background-color: #c9222d !important;
 }
 
+.logo-nav {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}
 
 .navbar-brand {
   color: #fff !important;
@@ -32,7 +42,11 @@ body{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(assets/IMGs/hero-bg-2.png);
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.55)
+    ),
+    url(assets/IMGs/hero-bg-2.png);
 }
 
 .btn-orcamento {
@@ -103,4 +117,22 @@ min-height: 90px;
 
 #msgSucesso {
   display: none;
+}
+
+.footer {
+  background-color: #000000; 
+}
+
+.footer-links li {
+  margin: 5px 0;
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+
+.footer-links a:hover {
+  color: #c9222d; 
 }
