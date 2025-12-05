@@ -43,11 +43,16 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-image: linear-gradient(
-      rgba(0, 0, 0, 0.55),
-      rgba(0, 0, 0, 0.55)
+      rgba(0, 0, 0, 0.40),
+      rgba(0, 0, 0, 0.40)
     ),
     url(assets/IMGs/hero-bg-2.png);
 }
+
+.hero h1, .hero p {
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+}
+
 
 .btn-orcamento {
   background-color:#c9222d !important ; 
