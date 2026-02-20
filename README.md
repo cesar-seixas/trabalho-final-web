@@ -67,3 +67,13 @@ Durante o desenvolvimento deste projeto, foi possível reforçar conhecimentos c
 - Introdução ao uso de JavaScript para interações simples  
 
 Este projeto representa um passo importante no meu processo de formação em desenvolvimento web.
+
+---
+
+## 🚀 Deploy
+
+O site pode ser acessado através do link:
+
+🔗 *[Link do deploy aqui](https://cesar-seixas.github.io/trabalho-final-web/)*
+
+
